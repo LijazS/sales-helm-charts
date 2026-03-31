@@ -198,7 +198,7 @@ storage:
 
 gateway:
   gatewayName: sales-gateway
-  namespace: {{ .Values.namespaces.gateway }}
+  namespace: sales-gateway-ns
   gatewayClassName: kgateway
   listeners:
     port: 80
